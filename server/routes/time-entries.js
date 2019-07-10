@@ -12,6 +12,7 @@ router.get('/', (req, res) => {
 })
 
 router.post('/', (req, res) => {
+
     TimeEntry.create(req.body).then(timeEntry => {
         res.status(201).json(timeEntry)
     }).catch(e => {

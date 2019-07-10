@@ -3,7 +3,11 @@ const mongoose = require('mongoose')
 const { getModel } = require('./utils')
 
 const TimeEntrySchema = new mongoose.Schema({
-    testing: String
+    entryDate: String,
+    userName: String,
+    comment: String,
+    billable: String,
+    amount: String
 })
 
 module.exports = getModel('TimeEntry', TimeEntrySchema)
