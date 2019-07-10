@@ -1,0 +1,15 @@
+input{
+    display: none;
+}
+
+.table{
+    padding-top: 40px;
+}
+
+.gridContainer{
+    padding-top: 20px;
+}
+
+.page-message{
+    padding-top: 40px;
+}
